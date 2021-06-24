@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  background: #FAFAFA;
+  font-family: 'Poppins', sans-serif;
+  padding: 7vh 10vw;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.heading-light {
+  font-weight: 300;
+  color: #4C4E61;
+}
+
+.heading-dark {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #4C4E61;
+}
+
+.para {
+  font-size: 15px;
+  line-height: 22px;
+  max-width: 500px;
+  color: #A3A5AE;
+  padding-bottom: 5vh;
+}
+
+/* box */
+.box {
+  max-width: 349px;
+  border-radius: 10px;
+  padding: 5vh 3vw;
+  background-color: #fff;
+}
+
+.supervisor {
+  box-shadow: 0px 14px 25px -5px rgba(0, 0, 0, 0.15), 0px -6px 0px -2px #45D3D3;
+}
+
+.team-builder {
+  box-shadow: 0px 14px 25px -5px rgba(0, 0, 0, 0.15), 0px -6px 0px -2px #EA5353;
+}
+
+.karma {
+  box-shadow: 0px 14px 25px -5px rgba(0, 0, 0, 0.15), 0px -6px 0px -2px #FCAF4A;
+}
+
+.calculator {
+  box-shadow: 0px 14px 25px -5px rgba(0, 0, 0, 0.15), 0px -6px 0px -2px #549EF2;
+}
+
+/* box-typo */
+.box-heading {
+  font-weight: 600;
+  font-size: 20px;
+  color: #4C4E61;
+}
+
+.box-para {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.06em;
+  color: #A3A5AE;
+}
+
+.img {
+  margin-top: 3vh;
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .team-builder, .calculator {
+    margin-top: 25px;
+  }
+
+  .img {
+    width: 20%;
+  }
+
+}
